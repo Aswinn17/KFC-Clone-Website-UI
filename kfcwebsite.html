@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+      .demo{
+        background-color: black;
+        text-align: center;
+        display: flex;
+        color: white;
+        height: 80px;
+        padding-top: 15px;
+        
+        
+      }
+      input{
+        width: 170px;
+        height: 50px;
+        border-radius: 80px;
+        color: white;
+        background-color: red;
+        
+      }
+      .demo0{
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        
+      
+      }
+      .card{
+        text-align: center;
+        margin-left: 25px;
+        width: 18rem;      
+        margin: auto;
+      }
+
+      .card img {
+      height: 180px;      
+      
+      
+        
+       
+      }
+
+      .demo1{
+      
+        height: 150px;
+        margin-left: 130px;
+        margin-top: 100px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+
+      .demo2{
+        background-color: rgb(24, 17, 17);
+        color: white;
+        height: 700px; 
+      }
+
+      .demo3{
+        height: 150px;
+        margin-left: 130px;
+        margin-top: 100px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+
+      #carouselExampleIndicators{
+        display:flex;
+        color: black;
+
+      }
+      .demo4{
+        width: 400px;
+        height: 400px;
+      
+        
+
+      }
+      .demo5{
+        height: 150%;
+        width: 150%;
+        background-color: rgb(0, 0, 0);
+      }
+
+      .kfc-footer {
+        background-color: #000;   
+        color: #fff;
+        padding: 40px 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      .kfc-footer .footer-col {
+        margin-bottom: 20px;
+      }
+
+      .kfc-footer h5 {
+        color: #fff;
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .kfc-footer ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .kfc-footer ul li {
+        margin-bottom: 8px;
+      }
+
+      .kfc-footer ul li a {
+        color: #bbb;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      .kfc-footer ul li a:hover {
+        color: #fff;
+      }
+
+      .footer-logo {
+        width: 120px;
+        margin-bottom: 15px;
+      }
+
+      .footer-text {
+        font-size: 14px;
+        color: #bbb;
+      }
+
+      .social-icons a {
+        color: #bbb;
+        margin-right: 12px;
+        font-size: 20px;
+        transition: color 0.3s;
+      }
+
+      .social-icons a:hover {
+        color: #fff;
+      }
+
+      .footer-bottom {
+        margin-top: 20px;
+      }
+
+      .footer-bottom p {
+        margin: 0;
+        font-size: 14px;
+        color: #aaa;
+      }
+
+     
+      
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">
+            <img src="KFC_Logo.svg.png" width="70" height="30" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Deals</a>
+            </li>
+          </ul>
+        </div>
+        <a class="navbar-brand" href="#">
+            <img src="account_circle_24dp_5F6368.png" width="30" height="30" class="d-inline-block align-top" alt="">
+           
+          </a>
+       
+<nav class="navbar navbar-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link navbar-expand" href="loginpage.html" >Sign In</a>
+              </li>
+    <a class="navbar-brand" href="#">
+      <img src="download (1).png" width="40" height="40" class="d-inline-block align-top" alt="">
+     
+    </a>
+</ul>
+    </div>
+  </nav>
+      </nav>
+      <div class="demo">
+        <p class="mx-auto d-block"><b>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN   </b>
+        <input type="submit" value="  Start Order"></p>
+      </div>
+      <img src="image1.png" alt="" height="100%" width="100%">
+     <div class="demo1"> <h2> <b> BROWSE CATERGROIES </b> </h2></div>
+
+     <div class="demo0">
+     
+     <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image2.png" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">INTERNATIONAL BURGER FEST</p>
+      </div>
+
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image3.png" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">MATCH DAY COMBOS</p>
+      </div>
+
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image4.png" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">VALUE LUNCH SPECIALS</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image5.png" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">BOX MEALS</p>
+      </div>
+    </div>
+
+  </div>
+
+  <br><br>
+
+  <div class="demo0">
+     
+    <div class="card" style="width: 18rem;">
+     <img class="card-img-top" src="image6.png" alt="Card image cap">
+     <div class="card-body">
+       <p class="card-text">BURGERS</p>
+     </div>
+
+   </div>
+   <div class="card" style="width: 18rem;">
+     <img class="card-img-top" src="image7.png" alt="Card image cap">
+     <div class="card-body">
+       <p class="card-text">CHICKEN BUCKETS</p>
+     </div>
+
+   </div>
+   <div class="card" style="width: 18rem;">
+     <img class="card-img-top" src="image8.png" alt="Card image cap">
+     <div class="card-body">
+       <p class="card-text">RICE BOWLZ</p>
+     </div>
+   </div>
+
+   <div class="card" style="width: 18rem;">
+     <img class="card-img-top" src="image9.jpg" alt="Card image cap">
+     <div class="card-body">
+       <p class="card-text">View All Menu</p>
+     </div>
+   </div>
+   </div>
+   <br>
+   
+
+   <div class="demo2">
+   <h2 class="demo3"><br><br> <b>EXCLUSIVE OFFERS FOR YOU </b></h2>
+
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+    <div class="container-fluid">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image10.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">FREE CHICKEN..</h5>
+        <p class="card-text">1 Pc free Chicken Zinger on a cart value of 499 or above on first order. Only for registered users.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image11.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">ADD 2 PC HOT N..</h5>
+        <p class="card-text">Add 2 Pc Hot n Crispy Chicken at just Rs 99 on min cart value.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image12.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">UPTO RS 100 OFF ON..</h5>
+        <p class="card-text">Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image13.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">FREE CHICKEN..</h5>
+        <p class="card-text">1 Pc free Chicken Zinger on a cart value of 499 or above on first order. Only for registered users..</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image14.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">ADD 2 PC HOT N..</h5>
+        <p class="card-text">Add 2 Pc Hot n Crispy Chicken at just Rs 99 on min cart value.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image15.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">UPTO RS 100 OFF ON..</h5>
+        <p class="card-text">Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image16.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">FREE CHICKEN..</h5>
+        <p class="card-text">1 Pc free Chicken Zinger on a cart value of 499 or above on first order. Only for registered users.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image17.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">ADD 2 PC HOT N..</h5>
+        <p class="card-text">Add 2 Pc Hot n Crispy Chicken at just Rs 99 on min cart value.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="image18.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">UPTO RS 100 OFF ON..</h5>
+        <p class="card-text">Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user.</p>
+        <a href="#" class="btn btn-danger">Apply Offer</a>
+      </div>
+    </div>
+
+  </div>
+   </div>
+
+   <footer class="kfc-footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3 footer-col">
+        <img src="KFC_Logo.svg.png" alt="KFC Logo" class="footer-logo">
+        <p class="footer-text">It’s Finger Lickin’ Good! Order your favorite chicken meals, buckets, and more.</p>
+      </div>
+
+      
+      <div class="col-md-3 footer-col">
+        <h5>Menu</h5>
+        <ul>
+          <li><a href="#">Chicken Buckets</a></li>
+          <li><a href="#">Burgers</a></li>
+          <li><a href="#">Snacks</a></li>
+          <li><a href="#">Beverages</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-3 footer-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Store Locator</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-3 footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookies Policy</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <div class="footer-bottom text-center">
+      <p>© 2025 KFC. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  
+  
+
+      
+</body>
+</html>
